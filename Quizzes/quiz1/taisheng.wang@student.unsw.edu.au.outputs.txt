@@ -1,0 +1,193 @@
+TEST 1 BEGIN
+$ python3 -c "from quiz_1 import *; picture(1, 2)"
+ /\/\
+/ __ \
+\    /
+ \/\/
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c "from quiz_1 import *; picture(2, 1)"
+ /\  /\
+/  \/  \
+\  /\  /
+ \/  \/
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c "from quiz_1 import *; picture(2, 2)"
+ /\/\  /\/\
+/ __ \/ __ \
+\    /\    /
+ \/\/  \/\/
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c "from quiz_1 import *; picture(1, 7)"
+ /\/\/\/\/\/\/\
+/ ____________ \
+\              /
+ \/\/\/\/\/\/\/
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c "from quiz_1 import *; picture(7, 1)"
+ /\  /\  /\  /\  /\  /\  /\
+/  \/  \/  \/  \/  \/  \/  \
+\  /\  /\  /\  /\  /\  /\  /
+ \/  \/  \/  \/  \/  \/  \/
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c "from quiz_1 import *; picture(7, 7)"
+ /\/\/\/\/\/\/\  /\/\/\/\/\/\/\  /\/\/\/\/\/\/\  /\/\/\/\/\/\/\  /\/\/\/\/\/\/\  /\/\/\/\/\/\/\  /\/\/\/\/\/\/\
+/ ____________ \/ ____________ \/ ____________ \/ ____________ \/ ____________ \/ ____________ \/ ____________ \
+\              /\              /\              /\              /\              /\              /\              /
+ \/\/\/\/\/\/\/  \/\/\/\/\/\/\/  \/\/\/\/\/\/\/  \/\/\/\/\/\/\/  \/\/\/\/\/\/\/  \/\/\/\/\/\/\/  \/\/\/\/\/\/\/
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c "from quiz_1 import *; picture(2, 6)"
+ /\/\/\/\/\/\  /\/\/\/\/\/\
+/ __________ \/ __________ \
+\            /\            /
+ \/\/\/\/\/\/  \/\/\/\/\/\/
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c "from quiz_1 import *; picture(6, 2)"
+ /\/\  /\/\  /\/\  /\/\  /\/\  /\/\
+/ __ \/ __ \/ __ \/ __ \/ __ \/ __ \
+\    /\    /\    /\    /\    /\    /
+ \/\/  \/\/  \/\/  \/\/  \/\/  \/\/
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c "from quiz_1 import *; picture(5, 8)"
+ /\/\/\/\/\/\/\/\  /\/\/\/\/\/\/\/\  /\/\/\/\/\/\/\/\  /\/\/\/\/\/\/\/\  /\/\/\/\/\/\/\/\
+/ ______________ \/ ______________ \/ ______________ \/ ______________ \/ ______________ \
+\                /\                /\                /\                /\                /
+ \/\/\/\/\/\/\/\/  \/\/\/\/\/\/\/\/  \/\/\/\/\/\/\/\/  \/\/\/\/\/\/\/\/  \/\/\/\/\/\/\/\/
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c "from quiz_1 import *; picture(8, 5)"
+ /\/\/\/\/\  /\/\/\/\/\  /\/\/\/\/\  /\/\/\/\/\  /\/\/\/\/\  /\/\/\/\/\  /\/\/\/\/\  /\/\/\/\/\
+/ ________ \/ ________ \/ ________ \/ ________ \/ ________ \/ ________ \/ ________ \/ ________ \
+\          /\          /\          /\          /\          /\          /\          /\          /
+ \/\/\/\/\/  \/\/\/\/\/  \/\/\/\/\/  \/\/\/\/\/  \/\/\/\/\/  \/\/\/\/\/  \/\/\/\/\/  \/\/\/\/\/
+TEST 10 END
+
+TEST 11 BEGIN
+$ python3 -c "from quiz_1 import *; print(list_of_tuples('file_1.txt'))"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/ericmartin/Documents/COMP9021/Quizzes/Quiz 1/Submissions/taisheng.wang@student.unsw.edu.au/quiz_1.py", line 80, in list_of_tuples
+    res = [eval(i) for i in e]
+           ^^^^^^^
+  File "<string>", line 0
+    
+SyntaxError: invalid syntax
+TEST 11 END
+
+TEST 12 BEGIN
+$ python3 -c "from quiz_1 import *; print(list_of_tuples('file_2.txt'))"
+[(-333, 0, 3333)]
+TEST 12 END
+
+TEST 13 BEGIN
+$ python3 -c "from quiz_1 import *; print(list_of_tuples('file_3.txt'))"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/ericmartin/Documents/COMP9021/Quizzes/Quiz 1/Submissions/taisheng.wang@student.unsw.edu.au/quiz_1.py", line 80, in list_of_tuples
+    res = [eval(i) for i in e]
+           ^^^^^^^
+  File "<string>", line 0
+    
+SyntaxError: invalid syntax
+TEST 13 END
+
+TEST 14 BEGIN
+$ python3 -c "from quiz_1 import *; print(list_of_tuples('file_4.txt'))"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/ericmartin/Documents/COMP9021/Quizzes/Quiz 1/Submissions/taisheng.wang@student.unsw.edu.au/quiz_1.py", line 80, in list_of_tuples
+    res = [eval(i) for i in e]
+           ^^^^^^^
+  File "<string>", line 0
+    
+SyntaxError: invalid syntax
+TEST 14 END
+
+TEST 15 BEGIN
+$ python3 -c "from quiz_1 import *; print(list_of_tuples('file_5.txt'))"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/ericmartin/Documents/COMP9021/Quizzes/Quiz 1/Submissions/taisheng.wang@student.unsw.edu.au/quiz_1.py", line 80, in list_of_tuples
+    res = [eval(i) for i in e]
+           ^^^^^^^
+  File "<string>", line 0
+    
+SyntaxError: invalid syntax
+TEST 15 END
+
+TEST 16 BEGIN
+$ python3 -c "from quiz_1 import *; print(list_of_tuples('file_6.txt'))"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/ericmartin/Documents/COMP9021/Quizzes/Quiz 1/Submissions/taisheng.wang@student.unsw.edu.au/quiz_1.py", line 80, in list_of_tuples
+    res = [eval(i) for i in e]
+           ^^^^^^^
+  File "<string>", line 0
+    
+SyntaxError: invalid syntax
+TEST 16 END
+
+TEST 17 BEGIN
+$ python3 -c "from quiz_1 import *; print(list_of_tuples('file_7.txt'))"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/ericmartin/Documents/COMP9021/Quizzes/Quiz 1/Submissions/taisheng.wang@student.unsw.edu.au/quiz_1.py", line 80, in list_of_tuples
+    res = [eval(i) for i in e]
+           ^^^^^^^
+  File "<string>", line 0
+    
+SyntaxError: invalid syntax
+TEST 17 END
+
+TEST 18 BEGIN
+$ python3 -c "from quiz_1 import *; print(list_of_tuples('file_8.txt'))"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/ericmartin/Documents/COMP9021/Quizzes/Quiz 1/Submissions/taisheng.wang@student.unsw.edu.au/quiz_1.py", line 80, in list_of_tuples
+    res = [eval(i) for i in e]
+           ^^^^^^^
+  File "<string>", line 0
+    
+SyntaxError: invalid syntax
+TEST 18 END
+
+TEST 19 BEGIN
+$ python3 -c "from quiz_1 import *; print(list_of_tuples('file_9.txt'))"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/ericmartin/Documents/COMP9021/Quizzes/Quiz 1/Submissions/taisheng.wang@student.unsw.edu.au/quiz_1.py", line 80, in list_of_tuples
+    res = [eval(i) for i in e]
+           ^^^^^^^
+  File "<string>", line 0
+    
+SyntaxError: invalid syntax
+TEST 19 END
+
+TEST 20 BEGIN
+$ python3 -c "from quiz_1 import *; print(list_of_tuples('file_10.txt'))"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/ericmartin/Documents/COMP9021/Quizzes/Quiz 1/Submissions/taisheng.wang@student.unsw.edu.au/quiz_1.py", line 80, in list_of_tuples
+    res = [eval(i) for i in e]
+           ^^^^^^^
+  File "<string>", line 0
+    
+SyntaxError: invalid syntax
+TEST 20 END
+
